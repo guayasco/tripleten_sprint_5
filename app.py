@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 
 # Lendo arquivo CSV escopo do projeto em um DataFrame
-car_data = pd.read_csv('../vehicles.csv')
+car_data = pd.read_csv('vehicles.csv')
 hist_button = st.button('Criar histograma') # Criar botão de histograma
 scatter_button = st.button('Criar gráfico de dispersão') # Criar botão de gráfico de dispersão
         
