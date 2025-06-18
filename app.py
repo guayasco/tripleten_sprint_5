@@ -3,6 +3,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+# Criando cabeçalho do aplicativo web:
+st.header('Escolha um gráfico para visualizar:')
+
 # Lendo arquivo CSV escopo do projeto em um DataFrame
 car_data = pd.read_csv('vehicles.csv')
 hist_button = st.button('Criar histograma') # Criar botão de histograma
